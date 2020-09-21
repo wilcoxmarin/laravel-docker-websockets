@@ -23,19 +23,24 @@
 <p>these are the steps to follow:</p>
 
 1.  clone the repository.
-
-    git clone https://github.com/wilcoxmarin/laravel-docker-websockets
+    ```
+        git clone https://github.com/wilcoxmarin/laravel-docker-websockets
+    ```
 
 2.  then copy the .env.example and give it the name .env there will have the variables to configure.
 
-    cp .env.example .env
+    ````
+        cp .env.example .env
+    ```
 
 3.  Do you remember having an account in pusher already created with a channel, the variables that you must configure in the .env are:
 
-    PUSHER_APP_ID= // the channel id which is app_id
-    PUSHER_APP_KEY= // the key of the channel that is key
-    PUSHER_APP_SECRET= //also the secret key of the channel that is secret
-    PUSHER_APP_CLUSTER= // and we also have the cluster is the location of where the channel that is cluster will be
+    ```
+        PUSHER_APP_ID= // the channel id which is app_id
+        PUSHER_APP_KEY= // the key of the channel that is key
+        PUSHER_APP_SECRET= //also the secret key of the channel that is secret
+        PUSHER_APP_CLUSTER= // and we also have the cluster is the location of where the channel that is cluster will be
+    ```
 
 <p>All these variables are obtained when they created the channel, it goes to the App key part and gives you everything that I comment on step by step.</p>
 
