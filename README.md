@@ -29,7 +29,7 @@
 
 2.  then copy the .env.example and give it the name .env there will have the variables to configure.
 
-    ````
+    ```
         cp .env.example .env
     ```
 
